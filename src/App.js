@@ -1,28 +1,34 @@
-import * as React from "react";
+import React from "react";
+import { useState } from "react";
 
 export default function MyComponent() {
+
+
+
   return (
     <>
       <div className="div">
         <div className="div-2">
           <div className="div-3">
+            <a href ="dermaid.github.io">
             <img
               loading="lazy"
               srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7330867c-2a02-42b1-a942-2a10abceb65a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7330867c-2a02-42b1-a942-2a10abceb65a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7330867c-2a02-42b1-a942-2a10abceb65a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7330867c-2a02-42b1-a942-2a10abceb65a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7330867c-2a02-42b1-a942-2a10abceb65a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7330867c-2a02-42b1-a942-2a10abceb65a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7330867c-2a02-42b1-a942-2a10abceb65a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7330867c-2a02-42b1-a942-2a10abceb65a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
               className="img"
             />
+            </a>
             <div className="div-4">
-              <div className="div-5">About</div>
-              <div className="div-6">Team</div>
-              <div className="div-7">Supervisors</div>
-              <div className="div-8">Contact Us</div>
+              <a href ="#aboutSection" div className="div-5">About</a>  
+              <a href ="#teamSection" div className="div-6">Team</a>
+              <a href ="#supervisorSection" div className="div-7">Supervisors</a>
+              <a href ="#contactSection" div className="div-8">Contact Us</a>
             </div>
           </div>
         </div>
-        <div className="div-9">
+        <div className="div-9" id="aboutSection">
           <div className="div-10">
-            <div className="div-11">Dermaid </div>
-            <div className="div-12">
+            <div className="div-11" >Dermaid </div>
+            <div className="div-12" >
               This is the project page for CS491. This page is currently being
               updated, we will be adding more sections shortly. For more
               questions about our project ‘Dermaid’ please feel free to contact
@@ -31,7 +37,7 @@ export default function MyComponent() {
             </div>
           </div>
         </div>
-        <div className="div-13">
+        <div className="div-13" id="teamSection">
           <div className="div-14">
             <div className="div-15">Our team</div>
             <div className="div-16">We are a team of four.</div>
@@ -43,7 +49,8 @@ export default function MyComponent() {
                   <div className="div-20">
                     <img
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/23c98943-b787-4dae-a493-b60e6506dc60?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/23c98943-b787-4dae-a493-b60e6506dc60?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/23c98943-b787-4dae-a493-b60e6506dc60?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/23c98943-b787-4dae-a493-b60e6506dc60?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/23c98943-b787-4dae-a493-b60e6506dc60?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/23c98943-b787-4dae-a493-b60e6506dc60?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/23c98943-b787-4dae-a493-b60e6506dc60?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/23c98943-b787-4dae-a493-b60e6506dc60?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                     
                       className="img-2"
                     />
                     <div className="div-21">
@@ -51,16 +58,20 @@ export default function MyComponent() {
                       <div className="div-23">CS Senior Year Student</div>
                     </div>
                     <div className="div-24">
+                      <a href="https://www.linkedin.com/in/saad-khan-6a30641b2/" target="_blank" rel="noopener noreferrer">
                       <img
                         loading="lazy"
                         srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/48486f33-23d2-43f3-a026-4e8653b9633c?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/48486f33-23d2-43f3-a026-4e8653b9633c?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/48486f33-23d2-43f3-a026-4e8653b9633c?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/48486f33-23d2-43f3-a026-4e8653b9633c?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/48486f33-23d2-43f3-a026-4e8653b9633c?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/48486f33-23d2-43f3-a026-4e8653b9633c?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/48486f33-23d2-43f3-a026-4e8653b9633c?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/48486f33-23d2-43f3-a026-4e8653b9633c?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
                         className="img-3"
                       />
+                      </a>
+                      <a href="mailto:saad.khan@ug.bilkent.edu.tr">
                       <img
                         loading="lazy"
                         srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
                         className="img-4"
                       />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -76,16 +87,20 @@ export default function MyComponent() {
                       <div className="div-28">CS Senior Year Student</div>
                     </div>
                     <div className="div-29">
+                    <a href="https://www.linkedin.com/in/emirhan-büyükkonuklu-5839a81b4" target="_blank" rel="noopener noreferrer">
                       <img
                         loading="lazy"
                         srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/70fedcb3-1e55-47be-a306-78ff6d27d08b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/70fedcb3-1e55-47be-a306-78ff6d27d08b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/70fedcb3-1e55-47be-a306-78ff6d27d08b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/70fedcb3-1e55-47be-a306-78ff6d27d08b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/70fedcb3-1e55-47be-a306-78ff6d27d08b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/70fedcb3-1e55-47be-a306-78ff6d27d08b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/70fedcb3-1e55-47be-a306-78ff6d27d08b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/70fedcb3-1e55-47be-a306-78ff6d27d08b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
                         className="img-6"
                       />
+                      </a>
+                      <a href="mailto:e.buyukkonuklu@ug.bilkent.edu.tr">
                       <img
                         loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a88d86a1-2146-4685-95c0-f6a4448fde1b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a88d86a1-2146-4685-95c0-f6a4448fde1b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a88d86a1-2146-4685-95c0-f6a4448fde1b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a88d86a1-2146-4685-95c0-f6a4448fde1b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a88d86a1-2146-4685-95c0-f6a4448fde1b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a88d86a1-2146-4685-95c0-f6a4448fde1b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a88d86a1-2146-4685-95c0-f6a4448fde1b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a88d86a1-2146-4685-95c0-f6a4448fde1b?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
-                        className="img-7"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                        className="img-4"
                       />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -105,16 +120,20 @@ export default function MyComponent() {
                       <div className="div-35">CS Senior Year Student</div>
                     </div>
                     <div className="div-36">
+                    <a href="https://www.linkedin.com/in/hasan-yarkın-kurt" target="_blank" rel="noopener noreferrer">
                       <img
                         loading="lazy"
                         srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9f120656-8140-4ba9-842e-ebfab615ea16?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9f120656-8140-4ba9-842e-ebfab615ea16?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9f120656-8140-4ba9-842e-ebfab615ea16?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9f120656-8140-4ba9-842e-ebfab615ea16?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9f120656-8140-4ba9-842e-ebfab615ea16?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9f120656-8140-4ba9-842e-ebfab615ea16?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9f120656-8140-4ba9-842e-ebfab615ea16?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9f120656-8140-4ba9-842e-ebfab615ea16?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
                         className="img-9"
                       />
+                      </a>
+                      <a href="mailto:yarkin.kurt@ug.bilkent.edu.tr">
                       <img
                         loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/8a2ae9bb-cdcd-4f83-838d-0ccad907f29a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/8a2ae9bb-cdcd-4f83-838d-0ccad907f29a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8a2ae9bb-cdcd-4f83-838d-0ccad907f29a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/8a2ae9bb-cdcd-4f83-838d-0ccad907f29a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/8a2ae9bb-cdcd-4f83-838d-0ccad907f29a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8a2ae9bb-cdcd-4f83-838d-0ccad907f29a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/8a2ae9bb-cdcd-4f83-838d-0ccad907f29a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/8a2ae9bb-cdcd-4f83-838d-0ccad907f29a?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
-                        className="img-10"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                        className="img-4"
                       />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -130,16 +149,20 @@ export default function MyComponent() {
                       <div className="div-40">CS Senior Year Student</div>
                     </div>
                     <div className="div-41">
+                    <a href="https://www.linkedin.com/in/göktuğ-kuşcu-b62233243" target="_blank" rel="noopener noreferrer">
                       <img
                         loading="lazy"
                         srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
                         className="img-12"
                       />
+                      </a>
+                      <a href="mailto:goktug.kuscu@ug.bilkent.edu.tr">
                       <img
                         loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e58b916b-22fb-4f19-973b-7b6292e01258?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e58b916b-22fb-4f19-973b-7b6292e01258?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e58b916b-22fb-4f19-973b-7b6292e01258?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e58b916b-22fb-4f19-973b-7b6292e01258?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e58b916b-22fb-4f19-973b-7b6292e01258?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e58b916b-22fb-4f19-973b-7b6292e01258?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e58b916b-22fb-4f19-973b-7b6292e01258?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e58b916b-22fb-4f19-973b-7b6292e01258?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
-                        className="img-13"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                        className="img-4"
                       />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -147,7 +170,7 @@ export default function MyComponent() {
             </div>
           </div>
         </div>
-        <div className="div-42">
+        <div className="div-42" id="supervisorSection">
           <div className="div-43">Our Supervisor and Innovation Expert</div>
           <div className="div-44">
             <div className="div-45">
@@ -204,7 +227,7 @@ export default function MyComponent() {
             </div>
           </div>
         </div>
-        <div className="div-56">
+        <div className="div-56" id="contactSection">
           <div className="div-57">Contact us</div>
           <div className="div-58">
             <img
