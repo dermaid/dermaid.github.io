@@ -1,12 +1,15 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
 import { useState } from "react";
+import Reports from "./Reports"
 
-export default function MyComponent() {
 
-
+function Main () {
 
   return (
-    <>
+    
+    <div className="Main">
+    <Router>
       <div className="div">
         <div className="div-2">
           <div className="div-3">
@@ -21,6 +24,11 @@ export default function MyComponent() {
               <a href ="#aboutSection" div className="div-5">About</a>  
               <a href ="#teamSection" div className="div-6">Team</a>
               <a href ="#supervisorSection" div className="div-7">Supervisors</a>
+
+          
+      
+
+
               <a href ="#contactSection" div className="div-8">Contact Us</a>
             </div>
           </div>
@@ -49,7 +57,7 @@ export default function MyComponent() {
                   <div className="div-20">
                     <img
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/985592d9-6359-47cf-8ef2-7c120a068d17?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                      srcSet="saad.jpeg"
                      
                       className="img-2"
                     />
@@ -112,7 +120,7 @@ export default function MyComponent() {
                   <div className="div-32">
                     <img
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d85f3e6c-41e8-4436-a54f-fc19ea6ec191?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d85f3e6c-41e8-4436-a54f-fc19ea6ec191?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d85f3e6c-41e8-4436-a54f-fc19ea6ec191?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d85f3e6c-41e8-4436-a54f-fc19ea6ec191?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d85f3e6c-41e8-4436-a54f-fc19ea6ec191?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d85f3e6c-41e8-4436-a54f-fc19ea6ec191?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d85f3e6c-41e8-4436-a54f-fc19ea6ec191?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d85f3e6c-41e8-4436-a54f-fc19ea6ec191?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                      srcSet="hasan.jpeg"
                       className="img-8"
                     />
                     <div className="div-33">
@@ -141,7 +149,7 @@ export default function MyComponent() {
                   <div className="div-37">
                     <img
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/2b806284-58c3-434e-bfb0-bd90d908719f?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2b806284-58c3-434e-bfb0-bd90d908719f?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2b806284-58c3-434e-bfb0-bd90d908719f?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2b806284-58c3-434e-bfb0-bd90d908719f?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2b806284-58c3-434e-bfb0-bd90d908719f?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2b806284-58c3-434e-bfb0-bd90d908719f?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2b806284-58c3-434e-bfb0-bd90d908719f?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2b806284-58c3-434e-bfb0-bd90d908719f?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                      srcSet="goktug.jpeg"
                       className="img-11"
                     />
                     <div className="div-38">
@@ -186,16 +194,27 @@ export default function MyComponent() {
                     <div className="div-49">Supervisor</div>
                   </div>
                   <div className="div-50">
+                  <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                      <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                        className="img-12"
+                      />
+                      </a>
+                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
                     <img
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d5e18f44-ae51-4e35-a67b-dd624f1153d2?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d5e18f44-ae51-4e35-a67b-dd624f1153d2?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d5e18f44-ae51-4e35-a67b-dd624f1153d2?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d5e18f44-ae51-4e35-a67b-dd624f1153d2?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d5e18f44-ae51-4e35-a67b-dd624f1153d2?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d5e18f44-ae51-4e35-a67b-dd624f1153d2?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d5e18f44-ae51-4e35-a67b-dd624f1153d2?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d5e18f44-ae51-4e35-a67b-dd624f1153d2?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
-                      className="img-15"
+                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                      className="img-19"
                     />
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/08fcdd8f-d88d-4148-b67f-5c5d9d224735?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/08fcdd8f-d88d-4148-b67f-5c5d9d224735?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/08fcdd8f-d88d-4148-b67f-5c5d9d224735?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/08fcdd8f-d88d-4148-b67f-5c5d9d224735?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/08fcdd8f-d88d-4148-b67f-5c5d9d224735?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/08fcdd8f-d88d-4148-b67f-5c5d9d224735?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/08fcdd8f-d88d-4148-b67f-5c5d9d224735?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/08fcdd8f-d88d-4148-b67f-5c5d9d224735?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
-                      className="img-16"
-                    />
+                    </a>
+                    <a href="mailto:saad.khan@ug.bilkent.edu.tr">
+                      <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                        className="img-4"
+                      />
+                      </a>
                   </div>
                 </div>
               </div>
@@ -203,7 +222,7 @@ export default function MyComponent() {
                 <div className="div-51">
                   <img
                     loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/72d84783-312a-4d9c-ae75-f7a1f90e39e6?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/72d84783-312a-4d9c-ae75-f7a1f90e39e6?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/72d84783-312a-4d9c-ae75-f7a1f90e39e6?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/72d84783-312a-4d9c-ae75-f7a1f90e39e6?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/72d84783-312a-4d9c-ae75-f7a1f90e39e6?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/72d84783-312a-4d9c-ae75-f7a1f90e39e6?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/72d84783-312a-4d9c-ae75-f7a1f90e39e6?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/72d84783-312a-4d9c-ae75-f7a1f90e39e6?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                    srcSet="deniz.jpg"
                     className="img-17"
                   />
                   <div className="div-52">
@@ -211,16 +230,27 @@ export default function MyComponent() {
                     <div className="div-54">Innovation Expert</div>
                   </div>
                   <div className="div-55">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/b653c05a-bc08-48b1-855a-132f46a26676?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/b653c05a-bc08-48b1-855a-132f46a26676?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b653c05a-bc08-48b1-855a-132f46a26676?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/b653c05a-bc08-48b1-855a-132f46a26676?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/b653c05a-bc08-48b1-855a-132f46a26676?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b653c05a-bc08-48b1-855a-132f46a26676?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/b653c05a-bc08-48b1-855a-132f46a26676?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/b653c05a-bc08-48b1-855a-132f46a26676?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
-                      className="img-18"
-                    />
+                      <a href="https://www.linkedin.com/in/denizkatircioglu" target="_blank" rel="noopener noreferrer">
+                      <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/63f958c4-42db-4b5b-9314-97ac013288b3?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                        className="img-12"
+                      />
+                      </a>
+                    <a href="https://www.denizkatircioglu.com" target="_blank" rel="noopener noreferrer">
                     <img
                       loading="lazy"
                       srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/79b21a62-e700-4186-8ff5-db1253b0d218?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
                       className="img-19"
                     />
+                    </a>
+                    <a href="mailto:denizkatircioglu@gmail.com">
+                      <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e45cedc6-fb71-4ad7-816d-5a1a83d6da94?apiKey=c37f206b38aa4d1b83ed5b2714f09684&"
+                        className="img-4"
+                      />
+                      </a>
                   </div>
                 </div>
               </div>
@@ -550,8 +580,9 @@ export default function MyComponent() {
           aspect-ratio: 1;
           object-fit: cover;
           object-position: center;
-          width: 80px;
+          width: 150px;
           align-self: center;
+          border-radius: 50%;
         }
         .div-21 {
           align-items: center;
@@ -636,8 +667,9 @@ export default function MyComponent() {
           aspect-ratio: 1;
           object-fit: cover;
           object-position: center;
-          width: 80px;
+          width: 150px;
           align-self: center;
+          border-radius: 50%;
         }
         .div-26 {
           align-items: center;
@@ -730,8 +762,9 @@ export default function MyComponent() {
           aspect-ratio: 1;
           object-fit: cover;
           object-position: center;
-          width: 80px;
+          width: 150px;
           align-self: center;
+          border-radius: 50%;
         }
         .div-33 {
           align-items: center;
@@ -816,8 +849,9 @@ export default function MyComponent() {
           aspect-ratio: 1;
           object-fit: cover;
           object-position: center;
-          width: 80px;
+          width: 150px;
           align-self: center;
+          border-radius: 50%;
         }
         .div-38 {
           align-items: center;
@@ -1320,6 +1354,9 @@ export default function MyComponent() {
           }
         }
       `}</style>
-    </>
+      </Router>
+    </div>
   );
 }
+
+export default Main;
