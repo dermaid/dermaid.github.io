@@ -23,7 +23,7 @@ function Main () {
             <div className="div-4">
               <a href ="#aboutSection" div className="div-5">About</a>  
               <a href ="#teamSection" div className="div-6">Team</a>
-              <a href ="#supervisorSection" div className="div-7">Supervisors</a>
+              <a href ="#supervisorSection" div className="div-7">Supervisors</a> 
 
           
       
