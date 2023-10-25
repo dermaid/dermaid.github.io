@@ -1,13 +1,11 @@
 import React from "react";
+import Navbar from "./Navbar";
 
-function Reports() {
-  return (
-    <div>
-      {/* Add your content for the Reports page here */}
-      <h2>Reports Page</h2>
-      <p>This is the Reports page content.</p>
-    </div>
-  );
+function Reports(){
+    return(
+       
+        <div>Reports </div>
+    )
 }
 
-export default Reports;
+export default Reports
